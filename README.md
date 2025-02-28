@@ -8,3 +8,11 @@
 
 - [Original](https://youtu.be/KrSeBDBCI0A)
 - [Sequel](https://youtu.be/EDzhgm5NXqA)
+
+## Sounds API
+
+Run the HTTP server.
+
+```sh
+deno --allow-net sounds.ts
+```
