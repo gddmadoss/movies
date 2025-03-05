@@ -22,10 +22,7 @@ if (import.meta.main) {
     }
 
     const sound = makeSoundURL(sounds[id]);
-    return new Response(
-      "",
-      { headers: { "Location": sound } },
-    );
+    return fetch(sound);
   });
 }
 
